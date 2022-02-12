@@ -251,7 +251,7 @@ footer hr {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
    nav {
        display: none;
    }
