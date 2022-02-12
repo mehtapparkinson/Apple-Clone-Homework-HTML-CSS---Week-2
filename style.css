@@ -246,20 +246,19 @@ footer hr {
 
 }
 
-
+#small  {
+    display: none;
+}
 
 
 @media screen and (max-width: 600px) {
-    nav ul {
-    flex-direction: column; }
+   nav {
+       display: none;
+   }
 
-    nav li {
-    display: none;
-    }
-
-    nav li.small-screen {
-    display: block;
-    }
+   #small {
+       display: flex;
+   }
 
     .Iphone-13Pro {
     background-image: url("https://www.apple.com/v/home/aj/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_small_2x.jpg");
