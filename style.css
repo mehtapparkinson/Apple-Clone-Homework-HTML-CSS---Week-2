@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Work+Sans:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Work+Sans:wght@900&display=swap');
+
+/*font-family: 'Poppins', sans-serif;
+font-family: 'Work Sans', sans-serif;*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+/*  NAV BAR */
+
+nav {
+    background-color: rgba(0,0,0,0.8);
+    background-image: url(imgs/nav-bg.jpg);
+    background-size: contain;
+
+}
+
+nav  ul {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+nav li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    font-size: 11px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #dcdce2;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Container*/
+   
+
+/* HOME*/
+.top-content {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+.top-content a {
+    color: #0071e3;
+    text-decoration: none;
+
+}
+
+
+/* IPHONE 13*/
+
+
+.IPhone-13Pro  {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FBFBFD;
+    padding-top: 30px;
+    background-image: url("https://www.apple.com/v/home/aj/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_medium.jpg");
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+
+}
+
+.IPhone-13Pro a {
+    color: #0071e3;
+    text-decoration: none;
+
+}
+
+.IPhone-13Pro h1  {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+#iphone13pro {
+    max-width: 2048px;
+    margin-bottom: 20px;
+}
+
+
+/* 13 */
+
+.Iphone13  {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FBFBFD;
+    padding-top: 30px; 
+    background-image: url(imgs/hero_iphone_13__f194u1rdooeq_largetall_2x.jpg);
+    background-repeat: no-repeat;
+    max-width:100%;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 20px;
+    background-size: cover;
+ }
+
+.Iphone13 a {
+    color: #0071e3;
+    text-decoration: none; 
+}
+    
+.Iphone13 h1  {
+    font-size: 40px;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+
+.Iphone13 h3 {
+    color: pink;
+}
+    
+/*GIFT*/
+
+.valentines {
+    background-image: url(imgs/hero_vday22__bt5gpd2vjafm_large_2x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    max-width: 2048px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 20px;
+    background-position: center;
+   
+
+}
+
+.valentines h1 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #602d62;
+    margin-top: 20px;
+}
+
+.valentines h2 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #602d62;
+}
+
+
+
+
+@media screen and (max-width: 475px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        display: none;
+    }
+
+    nav li.small-screen {
+        display: block;
+    }
+
+    .Iphone-13Pro {
+        background-image: url("https://www.apple.com/v/home/aj/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_small_2x.jpg");
+    }
+
+    .Iphone13 {
+        background-image: url("https://www.apple.com/v/home/aj/images/heroes/iphone-13/hero_iphone_13__f194u1rdooeq_small.jpg");
+    }
+
+    .valentines {
+        background-image: url("https://www.apple.com/v/home/aj/images/heroes/valentines-day-last-chance/hero_vday22__bt5gpd2vjafm_small.jpg");
+        } 
+
